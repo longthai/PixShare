@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PixShare</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+	<style type="text/css">
+		.photo {
+			width: 59%;
+			line-height: 0;
+			-webkit-column-count: 1;
+			-webkit-column-gap: 0px;
+			-moz-column-count: 1;
+			-moz-column-gap: 0px;
+			column-count: 1;
+			column-gap: 0px;
+			float: right;
+			margin: 3% 3.5% 5% 0;
+		}
+
+		.photo img {
+			height: auto;
+			padding: 0 10px 10px 10px;
+		}
+
+		.center1 .pagination{
+			margin-left: 35%;
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<div id="banner">
+			<h2>Pixshare</h2>
+			<form id=search-bar>
+				<input type="text" name="search" placeholder="Search...">
+			</form>
+		</div>	
+	</header>
+	
+	<nav>
+		<ul id=nav-bar>
+			<li><a href="index-registered.html">Logo</a></li>
+			<li><a href="#">Contact</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="upload.html">Upload</a></li>
+			<li><a href="profile.html">Profile</a></li>
+		</ul>
+	</nav>
+	
+	<div id="main-content">
+		<aside>
+			<div id="profile-box">
+				<ul>
+					<li><img src="img/profile.jpg"></li>
+					<h3>User name</h3>
+					<li><a href="#">Setting</a></li>
+					<li><a href="#">Setting</a></li>
+					<li><a href="#">Setting</a></li>
+					<li><a href="index.html">Logout</a></li>
+				</ul>
+			</div>
+		</aside>
+
+		<section class="photo">
+			<a href="page.html"><img src="img/bike.jpeg" alt="Bike"></a>
+			<a href="#"><img src="img/cake.jpeg" alt="Cake"></a>
+			<a href="#"><img src="img/door.jpeg" alt="Door"></a>
+			<a href="#"><img src="img/lighthouse.jpeg" alt="Lighthouse"></a>
+			<a href="#"><img src="img/rose.jpeg" alt="Rose"></a>
+			<a href="#"><img src="img/balloon.jpg" alt="Balloon"></a>
+		</section>
+
+		<div class="center1">
+			<ul class="pagination">
+				<li><a href="#">PREV</a></li>
+				<li><a href="#">1</a></li>
+				<li><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+				<li><a href="#">NEXT</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<footer>
+		<div class="center">	
+			<ul class="footer-social">
+				<li><a href="#"><img src="img/facebook.png" ></a></li>
+				<li><a href="#"><img src="img/twitter.png"></a></li>
+				<li><a href="#"><img src="img/tumblr.png"></a></li>
+				<li><a href="#"><img src="img/instagram.png"></a></li>
+				<li><a href="#"><img src="img/googleplus.png"></a></li>
+			</ul>
+		</div>
+
+		<div class="center footer-text">
+			<h3>BY PIXSHARE</h3>
+		</div>
+	</footer>
+</body>
+</html>

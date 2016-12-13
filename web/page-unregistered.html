@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PixShare</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+	<style type="text/css">
+		#cmt-box input[type=button] {
+		    width: 100%;
+		    background-color: #4CAF50;
+		    color: white;
+    		font-size: 14px; font-weight: bold;
+		    padding: 12px 20px;
+		    margin: 4px 0;
+		    border: none;
+		    cursor: pointer;
+		}
+		#cmt-box a {
+			text-decoration: none;
+		}
+		#cmt-box a input {
+			font-weight: bold;
+			font-size: 16px;
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<div id="banner">
+			<h2>Pixshare</h2>
+			<form id=search-bar>
+				<input type="text" name="search" placeholder="Search...">
+			</form>
+		</div>	
+	</header>
+
+	<nav>
+		<ul id=nav-bar>
+			<li><a href="index.html">Logo</a></li>
+			<li><a href="#">Contact</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="signup.html">Sign Up</a></li>
+			<li><a href="login.html">Login</a></li>
+		</ul>
+	</nav>
+
+	<div id="main-content">
+		<div id="page-content">
+			<img src="img/bike.jpeg" alt="Bike">
+		</div>
+
+		<div id="img-des">
+			<h3>Old Bicycle</h3>
+			<span>Uploaded by: <label><a href="profile.html">Username</a></label></span>
+			<p>Took a picture of an vintage bicycle on the street of my city.</p>
+			
+
+		</div>
+		<div id="cmt-box">
+			<h3>Comment</h3>
+			<div id="cmt-list">
+				<div class="cmt">
+				<label><a href="profile.html">Username</a>: </label>
+				<span>Nice photo</span> 
+				</div>
+				<div class="cmt">
+				<label><a href="profile.html">Username</a>: </label>
+				<span>Love it</span> 
+				</div>
+				<div class="cmt">
+				<label><a href="profile.html">Username</a>: </label>
+				<span>LOL noob</span> 
+				</div>
+			</div>
+			<form>
+				<a href="login.html"><input type="button" value="Login to comment"></a>
+			</form>
+		</div>
+	</div>
+
+	<footer>
+		<div class="center">	
+			<ul class="footer-social">
+				<li><a href="#"><img src="img/facebook.png"></a></li>
+				<li><a href="#"><img src="img/twitter.png"></a></li>
+				<li><a href="#"><img src="img/tumblr.png"></a></li>
+				<li><a href="#"><img src="img/instagram.png"></a></li>
+				<li><a href="#"><img src="img/googleplus.png"></a></li>
+			</ul>
+		</div>
+
+		<div class="center footer-text">
+			<h3>BY PIXSHARE</h3>
+		</div>
+	</footer>
+</body>
+</html>

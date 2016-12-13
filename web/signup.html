@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PixShare - Upload your photo</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+	<style type="text/css">
+		#banner h2 {
+			width: 60%; 
+			text-align: left;
+			position: absolute;
+			left: 20%; top: 22%; right: 20%;
+			color: white;
+			text-transform: uppercase;
+			font: bold 65px/70px Helvetica, Sans-serif;
+
+		}
+
+	</style>
+</head>
+
+<body>
+	<header>
+		<div id="banner">
+			<h2>Be part of Pixshare <br> and explore</h2>
+		</div>	
+	</header>
+
+	<nav>
+		<ul id=nav-bar>
+			<li><a href="index.html">Logo</a></li>
+			<li><a href="#">Contact</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="signup.html">Sign Up</a></li>
+			<li><a href="login.html">Login</a></li>
+		</ul>
+	</nav>
+
+	<div id="main-content">
+		<div id="sign-up">
+			<h2 align="center">SIGN UP</h2>
+            <form action="res/user/create" method="POST">
+				<label>Full Name</label>
+                <input type="text" name="fullname" id="fullname" onchange="checkFull()" required>
+                <p id="full"></p>
+				<label>Username</label>
+				<input type="text" name="nickname" id="nickname" onchange="checkNick()" required>
+                <p id="nick"></p>
+				<label>Password</label>
+                <input type="password" name="password" id="password" onchange="checkPass()" required>
+                <p id="pass"></p>
+				<label>Location</label>
+				<input type="text" name="location" >
+                <input type="submit" id="signup" name="btnSignUp"  value="Sign Up" >
+				<label><a href="login.html">Login</a></label>
+			</form>
+		</div>
+	</div>
+	
+	<footer>
+		<div class="center">	
+			<ul class="footer-social">
+				<li><a href="#"><img src="img/facebook.png"></a></li>
+				<li><a href="#"><img src="img/twitter.png"></a></li>
+				<li><a href="#"><img src="img/tumblr.png"></a></li>
+				<li><a href="#"><img src="img/instagram.png"></a></li>
+				<li><a href="#"><img src="img/googleplus.png"></a></li>
+			</ul>
+		</div>
+
+		<div class="center footer-text">
+			<h3>BY PIXSHARE</h3>
+		</div>
+	</footer>
+</body>
+</html>
